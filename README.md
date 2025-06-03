@@ -2,7 +2,7 @@
 
 An advanced vehicle safety system combining IoT sensors and embedded controls to monitor driver health, environmental conditions, and vehicle status in real-time. The system provides visual and audible alerts for potential hazards.
 
-###**✨ Key Features**
+### **✨ Key Features**
 
 Multi-sensor Integration: Rain, shock, gas, speed, and pulse rate monitoring
 Emergency Panic Button: Immediate alert activation
@@ -26,7 +26,7 @@ Pulse Sensor	A0	Driver heart rate monitoring
 GPS Module	RX:0, TX:1	Location tracking
 OLED Display	I2C	System status display
 
-###**🧠 System Architecture**
+### **🧠 System Architecture**
 ```
 // Core Safety Functions
 void activatePanicMode() {
@@ -55,7 +55,7 @@ int calculatePulseRate() {
   return (pulseCount * 60000) / elapsed;
 }
 ```
-###**⚙️ System Parameters**
+### **⚙️ System Parameters**
 Parameter	Value	Description
 Gas Threshold	300	Air quality alert level
 Panic Button Delay	5000ms	Anti-glitch debounce
@@ -63,7 +63,7 @@ Pulse Update Interval	1000ms	Health monitoring frequency
 Speed Update Interval	500ms	Velocity sampling rate
 Servo Rain Position	90°	Wiper activation angle
 
-###**🚀 Getting Started**
+### **🚀 Getting Started**
 1. Hardware Setup
 Connect all sensors to specified pins
 Mount OLED display via I2C
@@ -91,7 +91,7 @@ Rain: Servo activation + display alert
 Shock: Triple flash/beep pattern
 Gas: Continuous blinking + tone
 
-###**🛡 Safety Protocols**
+### **🛡 Safety Protocols**
 1. Automatic Responses:
 Rain detection → Wiper activation
 Gas leak → Immediate alert
@@ -101,7 +101,7 @@ Shock impact → Emergency flashers
 5-second panic button hold
 Dedicated alert sequence
 
-###**📋 Requirements**
+### **📋 Requirements**
 ```
 Hardware:
 - Arduino Uno/Mega
@@ -116,7 +116,7 @@ Software:
 - TinyGPS++ Library
 ```
 
-###**🌟 Future Enhancements**
+### **🌟 Future Enhancements**
 Cloud connectivity for remote monitoring
 Machine learning for predictive hazard detection
 CAN bus integration for vehicle diagnostics
