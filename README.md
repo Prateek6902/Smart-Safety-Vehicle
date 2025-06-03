@@ -1,13 +1,16 @@
-##📌 Overview
+## **📌 Overview**
+
 An advanced vehicle safety system combining IoT sensors and embedded controls to monitor driver health, environmental conditions, and vehicle status in real-time. The system provides visual and audible alerts for potential hazards.
 
 ##✨ Key Features
+
 Multi-sensor Integration: Rain, shock, gas, speed, and pulse rate monitoring
 Emergency Panic Button: Immediate alert activation
 Real-time GPS Tracking: Location and speed monitoring
 OLED Display: Clear status visualization
 Audible/Visual Alarms: Buzzer and LED indicators for warnings
-![Uploading Prototype Model.png…]()
+![Prototype Model](https://github.com/user-attachments/assets/7e7fb300-6939-4122-957c-da22306098be)
+
 
 🛠 Hardware Components
 Component	Pin Connection	Purpose
